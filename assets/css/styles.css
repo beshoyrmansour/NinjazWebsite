@@ -63,6 +63,35 @@ body {
 }
 .section-hero {
 }
+.section-hero .hero-background {
+  background-image: url("../images/hero.png");
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-attachment: local;
+  background-position: right top;
+  background-size: auto 100%;
+}
+.section-hero h1 {
+  line-height: 1.5;
+}
+.section-hero p {
+  margin-bottom: 2rem;
+}
+.nz-text-gold {
+  color: #fdcd0b;
+}
+.nz-btn-gold {
+  color: #fff;
+  background-color: #fdcd0b;
+  border-color: #fdcd0b;
+  border-radius: 0px;
+}
+.btn-outline-gold {
+  color: #fdcd0b;
+  border-color: #fdcd0b;
+  border-radius: 0px;
+}
+
 .section-how-it-works {
 }
 .section {
@@ -79,4 +108,8 @@ body {
 }
 
 .footer-links {
+}
+
+.m-5rem {
+  margin: 5rem;
 }
