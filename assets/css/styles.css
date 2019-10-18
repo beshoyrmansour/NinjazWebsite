@@ -257,6 +257,40 @@ body {
 }
 .section-contact-us {
 }
+.section-contact-us .section-header {
+}
+.section-contact-us .section-header p {
+  color: #fdcd0b;
+  margin: 0px;
+}
+.section-contact-us .section-header h2 {
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.section-contact-us .find-us-item {
+  display: flex;
+  /* justify-content: center; */
+  align-items: baseline;
+margin-bottom: 1rem;
+}
+.section-contact-us .find-us-item p {
+  
+margin-bottom: 0px;
+}
+.section-contact-us .find-us-item .find-us-icon {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 60px;
+  min-width: 60px;
+  max-width: 60px;
+  height: 60px;
+  min-height: 60px;
+  max-height: 60px;
+  border-radius: 50%;
+}
 .section-footer {
 }
 
