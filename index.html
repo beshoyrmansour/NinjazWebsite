@@ -16,18 +16,65 @@
 
 <body>
     <section class="section-navbar ">
-        <h1>Navbar</h1>
+        <!-- <h1>Navbar</h1> -->
+        <nav class="navbar navbar-expand-lg container py-5">
+            <a class="navbar-brand" href="#">
+                <img src="/assets/images/logo.png" height="70" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item mx-3 active">
+                        <a class="nav-link text-dark" href="#">Services <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link text-dark" href="#">Who we are</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link text-dark" href="#">login</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link text-dark nz-btn-gold py-0 my-2" href="#">Sign Up</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <div class="dropdown">
+                            <button class="btn btn-link dropdown-toggle text-uppercase text-dark" type="button"
+                                id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                <img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.4.3/flags/4x3/us.svg"
+                                    width="30" class="mr-1" alt="">
+                                Eng
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item text-uppercase text-dark" href="#"><img
+                                        src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.4.3/flags/4x3/sa.svg"
+                                        width="30" class="mr-1" alt=""> Arabic</a>
+                                <a class="dropdown-item text-uppercase text-dark" href="#">
+                                    <img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.4.3/flags/4x3/es.svg"
+                                        width="30" class="mr-1" alt="">
+                                    Spanish</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
     </section>
     <section class="section-hero py-5 container">
         <!-- <h1>Hero</h1> -->
         <div class="row hero-background">
-            <div class="col-12 col-lg-5 py-5 my-3">
+            <div class="col-12 col-lg-5 py-5 mt-5">
                 <h1 class="text-uppercase font-weight-bold nz-text-gold">Tech Enabled service Platform</h1>
-                <p class="text-uppercase font-weight-bold">FOR ALL YOUR PROFESSIONAL SERVICES</p>
-                <div class="d-flex justify-content-between">
-                    <button class="btn btn-block mr-4 my-0 py-3 nz-btn-gold text-uppercase">Need Service</button>
-                    <button class="btn btn-block m-0 py-3 btn-outline-gold text-uppercase">offer A Service</button>
-                </div> 
+                <p class="text-uppercase font-weight-normal lead">FOR ALL YOUR PROFESSIONAL SERVICES</p>
+                <div class="d-flex justify-content-between pt-4">
+                    <button class="btn btn-block mr-4 my-0 py-3 nz-btn-gold text-uppercase font-weight-bold">Need
+                        Service</button>
+                    <button class="btn btn-block m-0 py-3 btn-outline-gold text-uppercase font-weight-bold">offer A
+                        Service</button>
+                </div>
             </div>
         </div>
     </section>
