@@ -186,6 +186,41 @@ body {
 
 .section-how-it-works {
 }
+
+.has-ninjaz-face-left {
+  position: relative;
+}
+.has-ninjaz-face-left:after {
+  content: "";
+  background-image: url(../images/ninjaface.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: visible;
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  /* bottom: 0px; */
+  top: 80%;
+  left: -550px;
+}
+
+.has-ninjaz-face-right {
+  position: relative;
+}
+.has-ninjaz-face-right:after {
+  content: "";
+  background-image: url(../images/ninjaface.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: visible;
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  /* bottom: 0px; */
+  top: 80%;
+  right: -650px;
+}
+
 .section-how-it-works .how-it-works-item {
   padding: 3rem;
 }
@@ -271,11 +306,10 @@ body {
   display: flex;
   /* justify-content: center; */
   align-items: baseline;
-margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 .section-contact-us .find-us-item p {
-  
-margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 .section-contact-us .find-us-item .find-us-icon {
   color: white;
@@ -297,6 +331,32 @@ margin-bottom: 0px;
 .footer-links {
 }
 
+.section-footer .footer-links ul {
+  list-style: none;
+}
+
+.section-footer .footer-links ul li {
+  margin-bottom: 1rem;
+  color: black;
+}
+.section-footer .footer-links ul li a {
+  color: black;
+}
+
 .m-5rem {
   margin: 5rem;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 600px;
+  width: 100%;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 600px;
+  width: 100%;
 }
