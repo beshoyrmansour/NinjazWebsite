@@ -203,12 +203,57 @@ body {
 .section-our-services {
 }
 
+.nz-client-feedback-carousel {
+}
+.nz-client-feedback-carousel {
+}
+.nz-client-feedback-carousel .carousel-indicators {
+  position: relative;
+  padding-top: 1rem;
+}
+.nz-client-feedback-carousel .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 50%;
+  opacity: 1;
+  transition: background-color 1s ease;
+}
+.nz-client-feedback-carousel .carousel-indicators li.active {
+  background-color: #fdcd0b;
+}
+.nz-client-feedback-carousel .carousel-inner {
+  /* min-height: 500px; */
+}
+.nz-client-feedback-carousel .carousel-inner .carousel-item {
+  min-height: 260px;
+  height: fit-content;
+}
+.nz-client-feedback-carousel .carousel-inner .carousel-item .carousel-caption {
+  color: black;
+  text-align: left;
+  bottom: auto;
+}
 
-.section-client-feed-back {
-}
-.section-client-feed-back .nz-clint-feebback-carousel {
-}
 .section-our-partiners {
+}
+.section-our-partiners .section-our-partiners-carousel {
+}
+.section-our-partiners .section-our-partiners-carousel .owl-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.section-our-partiners .section-our-partiners-carousel .owl-dots .owl-dot {
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 50%;
+  margin: 0px 3px;
+}
+.section-our-partiners .section-our-partiners-carousel .owl-dots .owl-dot.active {
+  background-color: #fdcd0b;
 }
 .section-contact-us {
 }

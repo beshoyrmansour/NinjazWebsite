@@ -1,7 +1,7 @@
 $(document).ready(function() {
-  $(".owl-carousel").owlCarousel({
-    center: true,
-    items: 3,
+  $(".section-our-partiners-carousel").owlCarousel({
+    // center: true,
+    items: 2,
     loop: true,
     margin: 4,
     dots:true,
@@ -11,4 +11,5 @@ $(document).ready(function() {
       }
     }
   });
+
 });
