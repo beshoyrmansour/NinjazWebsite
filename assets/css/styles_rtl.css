@@ -58,13 +58,13 @@ html,
 body {
   font-family: "Poppins";
   overflow-x: hidden;
+  text-align: right;
 }
 
 .section-navbar .navbar-nav {
-  margin-left: auto;
-  margin-right: 0;
+  margin-right: auto;
+  margin-left: 0;
 }
-
 .section-hero {
   overflow: hidden;
   position: relative;
@@ -77,6 +77,7 @@ body {
   background-attachment: local;
   background-position: right top;
   background-size: auto 100%;
+  flex-direction: row-reverse;
 }
 .section-hero h1 {
   line-height: 1.5;
@@ -125,7 +126,7 @@ body {
 
 .section-title-side {
   display: block;
-  text-align: left;
+  text-align: right;
   position: relative;
   font-weight: bolder;
   text-transform: uppercase !important;
@@ -134,13 +135,13 @@ body {
   padding-bottom: 1rem;
 }
 /* .section-title-side span {
-  position: relative;
-} */
+    position: relative;
+  } */
 .section-title-side:after {
   content: "";
   position: absolute;
   width: 30%;
-  left: 0%;
+  right: 0%;
   bottom: 0px;
   border-bottom: 2px #fdcd0b solid;
 }
@@ -201,7 +202,7 @@ body {
   height: 100%;
   /* bottom: 0px; */
   top: 80%;
-  left: 85%;
+  right: 60%;
 }
 
 .section-how-it-works .how-it-works-item {
@@ -374,12 +375,11 @@ body {
   background-color: #f1f1f1;
 }
 
-
 @media (max-width: 992px) {
   .section-hero p {
     color: whitesmoke;
     /* background-image: linear-gradient(to left, #dbbb11, #fdcd0b);
-  border-radius: 50px; */
+    border-radius: 50px; */
     font-weight: bold;
     /* padding: 0px 4px; */
   }
@@ -405,5 +405,5 @@ body {
   }
 }
 .w-47{
-  width: 47%;
-}
+    width: 47%;
+  }
