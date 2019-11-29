@@ -410,3 +410,20 @@ body {
 .w-47 {
   width: 47%;
 }
+.section-login-singnup {
+  overflow: hidden;
+  position: relative;
+}
+
+.section-login-singnup .hero-background {
+  background-image: url("../images/hero.png");
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-attachment: local;
+  background-position: right top;
+  background-size: auto 100%;
+}
+.section-login-singnup .card{
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
+}

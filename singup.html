@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150975623-1"></script>
+    <script src="assets/js/gtag.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ninjaz</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="assets/fontawesome-free-5.4.2-web/css/all.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <section class="section-navbar ">
+        <!-- <h1>Navbar</h1> -->
+        <nav class="navbar navbar-light navbar-expand-lg container py-3">
+            <a class="navbar-brand" href="/index.html">
+                <img src="/assets/images/logo.png" height="70" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mt-2 mt-lg-0">
+                    <li class="nav-item mx-3 ">
+                        <a class="nav-link text-dark" href="#ourServices">Services </a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link text-dark" href="#">Who we are</a>
+                    </li>
+                    <li class="nav-item mx-3 active">
+                        <a class="nav-link text-dark " href="login.html">login <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link text-dark " href="singup.html"><span class="nz-btn-gold py-0 my-2 px-2">Sign
+                                Up</span></a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <div class="dropdown">
+                            <button class="btn btn-link dropdown-toggle text-uppercase text-dark" type="button"
+                                id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                <img src="assets/images/us.svg" width="30" class="mr-1" alt="">
+                                Eng
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item text-uppercase text-dark" href="index_ar.html"><img
+                                        src="assets/images/sa.svg" width="30" class="mr-1" alt=""> Arabic</a>
+                                <a class="dropdown-item text-uppercase text-dark" href="#">
+                                    <img src="assets/images/es.svg" width="30" class="mr-1" alt="">
+                                    Spanish</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+    </section>
+    <section class=" section-login-singnup py-5 container">
+        <!-- <h1>Hero</h1> -->
+        <div class="row hero-background">
+            <div class="card col-12 col-lg-6 mt-5 rounded-lg shadow">
+                <div class="card-body">
+                    <h1 class=" section-title-side">Signup <span style="font-weight: lighter;">Now</span></h1>
+                    <form>
+                        <div class="form-row">
+                            <div class="col-12 col-md-6 form-group">
+                                <label for="firstName">First Name</label>
+                                <input type="text" class="form-control" id="firstName" placeholder="First name"
+                                    required>
+                            </div>
+                            <div class="col-12 col-md-6 form-group">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" class="form-control" id="lastName" placeholder="Your Email Address"
+                                    required>
+
+                            </div>
+                            <div class="col-12 form-group">
+                                <label for="email">Email</label>
+                                <input id="email" type="email" class="form-control" id="loginemail"
+                                    placeholder="Your Email Address" required>
+                            </div>
+                        </div>
+                        <div class="form-row align-items-end">
+                            <div class="col-12 col-md-6 form-group">
+                                <label for="validationDefault03">Your Company Name</label>
+                                <input id="validationDefault03" type="text" class="form-control" id="loginpassword"
+                                    placeholder="Your Company Name">
+                            </div>
+                            <div class="col-12 col-md-6 form-group">
+                                <div class="custom-control custom-checkbox">
+                                    <input id="validationDefault03" type="checkbox" class="custom-control-input"
+                                        id="customCheck1">
+                                    <label class="custom-control-label" for="customCheck1">I'm a Service
+                                        provider</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class=" col-12 col-md-6 form-group">
+                                <label for="password">Password</label>
+                                <input id="password" type="password" class="form-control" id="loginpassword"
+                                    placeholder="Your passowrd" required>
+                            </div>
+                            <div class="col-12 col-md-6 form-group">
+                                <label for="confirmPassword">Confirm password</label>
+                                <input id="confirmPassword" type="password" class="form-control" id="loginpassword"
+                                    placeholder="Confirm your passowrd" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <button class="btn btn-block nz-btn-gold btn-lg text-uppercase font-weight-normal"
+                                type="submit">Register</button>
+                        </div>
+                    </form>
+                    <a href="/login.html" class="d-block pt-3 nz-text-gold">I already have account</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-our-partiners py-5 mt-5 has-ninjaz-face-right">
+        <!-- <h1>Our Partiners</h1> -->
+        <div class="container">
+
+            <h1 class="section-title-centerd"><span>Our Partners</span></h1>
+
+            <div class="owl-carousel section-our-partiners-carousel">
+                <div> <img src="assets/images/hiw_item1.png" alt="" class="img-fluid"></div>
+                <div> <img src="assets/images/hiw_item2.png" alt="" class="img-fluid"></div>
+                <div> <img src="assets/images/hiw_item3.png" alt="" class="img-fluid"></div>
+                <div> <img src="assets/images/hiw_item4.png" alt="" class="img-fluid"></div>
+                <div> <img src="assets/images/hiw_item5.png" alt="" class="img-fluid"></div>
+                <div> <img src="assets/images/hiw_item1.png" alt="" class="img-fluid"></div>
+                <div> <img src="assets/images/hiw_item2.png" alt="" class="img-fluid"></div>
+                <div> <img src="assets/images/hiw_item3.png" alt="" class="img-fluid"></div>
+                <div> <img src="assets/images/hiw_item4.png" alt="" class="img-fluid"></div>
+                <div> <img src="assets/images/hiw_item5.png" alt="" class="img-fluid"></div>
+                <div> <img src="assets/images/hiw_item1.png" alt="" class="img-fluid"></div>
+                <div> <img src="assets/images/hiw_item2.png" alt="" class="img-fluid"></div>
+                <div> <img src="assets/images/hiw_item3.png" alt="" class="img-fluid"></div>
+                <div> <img src="assets/images/hiw_item4.png" alt="" class="img-fluid"></div>
+                <div> <img src="assets/images/hiw_item5.png" alt="" class="img-fluid"></div>
+            </div>
+        </div>
+    </section>
+    <div class="mapouter">
+        <div class="gmap_canvas"><iframe width="2000" height="600" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=55.190137,11.654599&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                href="https://usave.co.uk"></a>
+        </div>
+    </div>
+    <footer class="section-footer pt-5">
+        <!-- <h1>Footer</h1> -->
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4 footer-links footer-img">
+                    <img src="assets/images/logo.png" alt="Ninjaz logo" class="img-fluid w-75">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 footer-links">
+                    <ul>
+                        <li> <a href="http://www.google.com" target="_blank"> Services</a> </li>
+                        <li> <a href="http://www.google.com" target="_blank"> Who we are</a> </li>
+                        <li> <a href="http://www.google.com" target="_blank"> Why Us</a> </li>
+                        <li> <a href="http://www.google.com" target="_blank"> Privacy</a> </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 footer-links">
+                    <ul>
+                        <li> <a href="http://www.google.com" target="_blank"> FAQs </a> </li>
+                        <li> <a href="http://www.google.com" target="_blank"> Terms & Conditions </a> </li>
+                        <li> <a href="http://www.google.com" target="_blank"> Press </a> </li>
+                        <li> <a href="http://www.google.com" target="_blank"> Premium </a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copy ">
+            <p class="text-center text-light mb-0 py-3">Copyright @2019 | All Rights Reserved @ninjaz.ae</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
