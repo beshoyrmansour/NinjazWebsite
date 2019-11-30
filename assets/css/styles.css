@@ -464,10 +464,21 @@ body {
 
 .recent-odrder-list {
   height: 500px;
-  overflow-y: auto;
+  /* overflow-y: auto; */
+  overflow-y: scroll;
+}
+.recent-odrder-list::-webkit-scrollbar {
+  width: 0 !important;
 }
 
 .custom-file-label::after {
   background: #fdcd0b;
   border-color: #fdcd0b;
+}
+
+.order-card {
+  border-width: 2px;
+}
+.order-card:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
