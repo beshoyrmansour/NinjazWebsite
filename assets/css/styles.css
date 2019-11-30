@@ -429,6 +429,7 @@ body {
 }
 .list-group .list-group-item {
   transition: width 0.3s;
+  margin: 0.5rem;
 }
 .list-group .list-group-item:hover {
   background-color: #dbbb11;
