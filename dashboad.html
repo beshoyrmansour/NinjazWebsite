@@ -67,148 +67,129 @@
         <div class="row">
             <div class="col-12 col-lg-2 flex-sm-row overflow-auto">
                 <div class="list-group flex-row flex-md-column " id="mainTabs" role="tablist">
-                    <a href="#" class="list-group-item text-center py-4 my-3 list-group-item-action active"
-                        id="v-pills-dashboard-tab" data-toggle="pill" href="#v-pills-dashboard" role="tab"
-                        aria-controls="v-pills-dashboard" aria-selected="true">Dashboard</a>
-                    <a href="#" class="list-group-item text-center py-4 my-3 list-group-item-action"
-                        id="v-pills-services-tab" data-toggle="pill" href="#v-pills-services" role="tab"
-                        aria-controls="v-pills-services" aria-selected="false">Services</a>
-                    <a href="#" class="list-group-item text-center py-4 my-3 list-group-item-action"
-                        id="v-pills-orders-tab" data-toggle="pill" href="#v-pills-orders" role="tab"
-                        aria-controls="v-pills-orders" aria-selected="false">Orders</a>
-                    <a href="#" class="list-group-item text-center py-4 my-3 list-group-item-action"
-                        id="v-pills-finaice-tab" data-toggle="pill" href="#v-pills-finaice" role="tab"
-                        aria-controls="v-pills-finaice" aria-selected="false">Finaice</a>
-                    <a href="#" class="list-group-item text-center py-4 my-3 list-group-item-action"
-                        id="v-pills-account-tab" data-toggle="pill" href="#v-pills-account" role="tab"
-                        aria-controls="v-pills-account" aria-selected="false">Account</a>
+                    <a href="dashboad.html"
+                        class="list-group-item text-center py-4 my-3 list-group-item-action active">Dashboard</a>
+                    <a href="services.html"
+                        class="list-group-item text-center py-4 my-3 list-group-item-action">Services</a>
+                    <a href="orders.html"
+                        class="list-group-item text-center py-4 my-3 list-group-item-action">Orders</a>
+                    <a href="finance.html"
+                        class="list-group-item text-center py-4 my-3 list-group-item-action">Finaice</a>
+                    <a href="account.html"
+                        class="list-group-item text-center py-4 my-3 list-group-item-action">Account</a>
                 </div>
             </div>
+
             <div class="col-12 col-lg-10 shadow py-3">
-                <div class="tab-content" id="v-pills-tabContent">
-                    <div class="tab-pane fade show active" id="v-pills-dashboard" role="tabpanel"
-                        aria-labelledby="v-pills-dashboard-tab">
-                        <h1 class="section-title-side"><span>Place order now</span></h1>
+                <h1 class="section-title-side"><span>Place order now</span></h1>
 
-                        <div class="row mb-5 card-deck">
-                            <!-- <div class="col-12 col-lg-4"> -->
-                            <div class="card rounded-lg">
-                                <div class="card-body pb-0">
-                                    <h5 class="card-title font-weight-bold">All Services</h5>
-                                    <p class="card-text">You will see list of all services actigorized by the service
-                                        type </p>
-                                </div>
-                                <div class="card-footer bg-white border-0">
-                                    <a href="/services.html" class="btn nz-btn-gold text-uppercase font-weight-bold">Go
-                                        To
-                                        Services List</a>
-                                </div>
-                            </div>
-
-                            <div class="card rounded-lg">
-                                <div class="card-body pb-0">
-                                    <h5 class="card-title font-weight-bold">Easy Mode</h5>
-                                    <p class="card-text">Just pick your service, upload the needed documents and we will
-                                        call you later to complete the process </p>
-                                </div>
-                                <div class="card-footer bg-white border-0">
-                                    <a href="/services.html"
-                                        class="btn nz-btn-gold text-uppercase font-weight-bold">Place order now</a>
-                                </div>
-                            </div>
-
-                            <div class="card rounded-lg">
-                                <div class="card-body pb-0">
-                                    <h5 class="card-title font-weight-bold">Advanced Mode</h5>
-                                    <p class="card-text">If you have time, Follow few simple steps to customize you
-                                        order</p>
-                                </div>
-                                <div class="card-footer bg-white border-0">
-                                    <a href="/services.html"
-                                        class="btn nz-btn-gold text-uppercase font-weight-bold">Place order now</a>
-                                </div>
-                            </div>
+                <div class="row mb-5 card-deck">
+                    <!-- <div class="col-12 col-lg-4"> -->
+                    <div class="card rounded-lg">
+                        <div class="card-body pb-0">
+                            <h5 class="card-title font-weight-bold">All Services</h5>
+                            <p class="card-text">You will see list of all services actigorized by the service
+                                type </p>
                         </div>
+                        <div class="card-footer bg-white border-0">
+                            <a href="/services.html" class="btn nz-btn-gold text-uppercase font-weight-bold">Go
+                                To
+                                Services List</a>
+                        </div>
+                    </div>
 
-                        <div class="row mb-5">
-                            <div class="col-12 col-lg-4">
-                                <h1 class="section-title-side"><span>My Recent orders</span></h1>
-                                <div class="recent-odrder-list px-2">
+                    <div class="card rounded-lg">
+                        <div class="card-body pb-0">
+                            <h5 class="card-title font-weight-bold">Easy Mode</h5>
+                            <p class="card-text">Just pick your service, upload the needed documents and we will
+                                call you later to complete the process </p>
+                        </div>
+                        <div class="card-footer bg-white border-0">
+                            <a href="/services.html" class="btn nz-btn-gold text-uppercase font-weight-bold">Place order
+                                now</a>
+                        </div>
+                    </div>
 
-                                    <div class="card border-secondary mb-3">
-                                        <div
-                                            class="card-header bg-secondary h5 d-flex justify-content-between align-items-baseline">
-                                            <span class="h5">#20545986</span>
-                                            <span class=" badge badge-pill badge-light">Created</span>
-                                        </div>
-                                        <div class="card-body text-dark">
-                                            <h5 class="card-title">Translation</h5>
-                                            <p class="card-text">Last update: <span class="text-muted">2019-07-28
-                                                    09:15</span> </p>
-                                        </div>
-                                    </div>
+                    <div class="card rounded-lg">
+                        <div class="card-body pb-0">
+                            <h5 class="card-title font-weight-bold">Advanced Mode</h5>
+                            <p class="card-text">If you have time, Follow few simple steps to customize you
+                                order</p>
+                        </div>
+                        <div class="card-footer bg-white border-0">
+                            <a href="/services.html" class="btn nz-btn-gold text-uppercase font-weight-bold">Place order
+                                now</a>
+                        </div>
+                    </div>
+                </div>
 
-                                    <div class="card border-primary mb-3">
-                                        <div
-                                            class="card-header bg-primary h5 d-flex justify-content-between align-items-baseline">
-                                            <span class="h5">#20545986</span>
-                                            <span class=" badge badge-pill badge-light">Approved</span>
-                                        </div>
-                                        <div class="card-body text-dark">
-                                            <h5 class="card-title">Translation</h5>
-                                            <p class="card-text">Last update: <span class="text-muted">2019-07-28
-                                                    09:15</span> </p>
-                                        </div>
-                                    </div>
+                <div class="row mb-5">
+                    <div class="col-12 col-lg-4">
+                        <h1 class="section-title-side"><span>My Recent orders</span></h1>
+                        <div class="recent-odrder-list px-2">
 
-                                    <div class="card border-success mb-3">
-                                        <div
-                                            class="card-header bg-success h5 d-flex justify-content-between align-items-baseline">
-                                            <span class="h5">#20545986</span>
-                                            <span class=" badge badge-pill badge-light">Completed</span>
-                                        </div>
-                                        <div class="card-body text-dark">
-                                            <h5 class="card-title">Translation</h5>
-                                            <p class="card-text">Last update:
-                                                <span class="text-muted">2019-07-28 09:15</span>
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <div class="card border-danger mb-3">
-                                        <div
-                                            class="card-header bg-danger h5 d-flex justify-content-between align-items-baseline">
-                                            <span class="h5">#20545986</span>
-                                            <span class=" badge badge-pill badge-light">Rejected</span>
-                                        </div>
-                                        <div class="card-body text-dark">
-                                            <h5 class="card-title">Translation</h5>
-                                            <p class="card-text">Last update: <span class="text-muted">2019-07-28
-                                                    09:15</span> </p>
-                                        </div>
-                                    </div>
-
+                            <div class="card border-secondary mb-3">
+                                <div
+                                    class="card-header bg-secondary h5 d-flex justify-content-between align-items-baseline">
+                                    <span class="h5">#20545986</span>
+                                    <span class=" badge badge-pill badge-light">Created</span>
+                                </div>
+                                <div class="card-body text-dark">
+                                    <h5 class="card-title">Translation</h5>
+                                    <p class="card-text">Last update: <span class="text-muted">2019-07-28
+                                            09:15</span> </p>
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-8">
-                                <h1 class="section-title-side"><span>Need Help</span></h1>
+
+                            <div class="card border-primary mb-3">
+                                <div
+                                    class="card-header bg-primary h5 d-flex justify-content-between align-items-baseline">
+                                    <span class="h5">#20545986</span>
+                                    <span class=" badge badge-pill badge-light">Approved</span>
+                                </div>
+                                <div class="card-body text-dark">
+                                    <h5 class="card-title">Translation</h5>
+                                    <p class="card-text">Last update: <span class="text-muted">2019-07-28
+                                            09:15</span> </p>
+                                </div>
+                            </div>
+
+                            <div class="card border-success mb-3">
+                                <div
+                                    class="card-header bg-success h5 d-flex justify-content-between align-items-baseline">
+                                    <span class="h5">#20545986</span>
+                                    <span class=" badge badge-pill badge-light">Completed</span>
+                                </div>
+                                <div class="card-body text-dark">
+                                    <h5 class="card-title">Translation</h5>
+                                    <p class="card-text">Last update:
+                                        <span class="text-muted">2019-07-28 09:15</span>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="card border-danger mb-3">
+                                <div
+                                    class="card-header bg-danger h5 d-flex justify-content-between align-items-baseline">
+                                    <span class="h5">#20545986</span>
+                                    <span class=" badge badge-pill badge-light">Rejected</span>
+                                </div>
+                                <div class="card-body text-dark">
+                                    <h5 class="card-title">Translation</h5>
+                                    <p class="card-text">Last update: <span class="text-muted">2019-07-28
+                                            09:15</span> </p>
+                                </div>
                             </div>
 
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="v-pills-services" role="tabpanel"
-                        aria-labelledby="v-pills-services-tab">
-                        services</div>
-                    <div class="tab-pane fade" id="v-pills-orders" role="tabpanel" aria-labelledby="v-pills-orders-tab">
-                        orders</div>
-                    <div class="tab-pane fade" id="v-pills-finaice" role="tabpanel"
-                        aria-labelledby="v-pills-finaice-tab">
-                        finaice</div>
-                    <div class="tab-pane fade" id="v-pills-account" role="tabpanel"
-                        aria-labelledby="v-pills-account-tab">
-                        account</div>
+                    <div class="col-12 col-lg-8">
+                        <h1 class="section-title-side"><span>Need Help</span></h1>
+                    </div>
+
                 </div>
             </div>
+
         </div>
     </section>
 

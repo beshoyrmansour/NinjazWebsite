@@ -11,9 +11,9 @@ $(document).ready(function() {
       },
     },
   });
-  $("#mainTabs a").on("click", function(e) {
-    e.preventDefault();
-    $(this).tab("show");
-  });
+  // $("#mainTabs a").on("click", function(e) {
+  //   e.preventDefault();
+  //   $(this).tab("show");
+  // });
 
 });
