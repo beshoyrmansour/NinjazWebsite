@@ -427,11 +427,11 @@ body {
   background: rgba(255, 255, 255, 0.9);
   border: none;
 }
-.list-group .list-group-item {
+.side-navbar .list-group .list-group-item {
   transition: width 0.3s;
   margin: 0.5rem;
 }
-.list-group .list-group-item:hover {
+.side-navbar .list-group .list-group-item:hover {
   background-color: #dbbb11;
   color: #000;
   border: none;
@@ -441,7 +441,7 @@ body {
   width: 95%;
   height: 95%;
 }
-.list-group .list-group-item.active {
+.side-navbar .list-group .list-group-item.active {
   background-color: #dbbb11;
   color: #000;
   border: none;
@@ -451,8 +451,8 @@ body {
   width: 95%;
   height: 95%;
 }
-.list-group .list-group-item:hover:before,
-.list-group .list-group-item.active::before {
+.side-navbar .list-group .list-group-item:hover:before,
+.side-navbar .list-group .list-group-item.active::before {
   content: "";
   position: absolute;
   width: 100%;
