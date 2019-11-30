@@ -436,7 +436,12 @@ body {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
-.recent-odrder-list{
+.recent-odrder-list {
   height: 500px;
   overflow-y: auto;
+}
+
+.custom-file-label::after {
+  background: #fdcd0b;
+  border-color: #fdcd0b;
 }
