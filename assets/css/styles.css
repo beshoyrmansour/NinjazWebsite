@@ -483,3 +483,37 @@ body {
 .order-card:hover {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
+.multi-steper .nav {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.multi-steper .nav:before {
+  content: "";
+  position: absolute;
+  border-top: 1px #e2e2e2 solid;
+  bottom: 50%;
+  left: 2%;
+  width: 95%;
+  z-index: 0;
+}
+.multi-steper .nav .nav-item{
+  z-index: 1;
+  margin: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.multi-steper .nav .nav-item a{
+  color: #000;
+  background: #fff;
+  border: 1px #eee solid;
+  /* min-width: 100px; */
+  /* border-radius: 500px; */
+}
+.multi-steper .nav .nav-item .active {
+  background: #fdcd0b;
+}
