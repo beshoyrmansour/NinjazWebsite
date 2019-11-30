@@ -4,12 +4,16 @@ $(document).ready(function() {
     items: 2,
     loop: true,
     margin: 4,
-    dots:true,
+    dots: true,
     responsive: {
       600: {
-        items: 4
-      }
-    }
+        items: 4,
+      },
+    },
+  });
+  $("#mainTabs a").on("click", function(e) {
+    e.preventDefault();
+    $(this).tab("show");
   });
 
 });
