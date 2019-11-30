@@ -427,13 +427,39 @@ body {
   background: rgba(255, 255, 255, 0.9);
   border: none;
 }
-
-.list-group .list-group-item.active {
-  background-color: #fdcd0b;
+.list-group .list-group-item {
+  transition: width 0.3s;
+}
+.list-group .list-group-item:hover {
+  background-color: #dbbb11;
   color: #000;
   border: none;
   font-weight: bold;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  z-index: 1;
+  width: 95%;
+  height: 95%;
+}
+.list-group .list-group-item.active {
+  background-color: #dbbb11;
+  color: #000;
+  border: none;
+  font-weight: bold;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  z-index: 1;
+  width: 95%;
+  height: 95%;
+}
+.list-group .list-group-item:hover:before,
+.list-group .list-group-item.active::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #fdcd0b;
+  top: 5%;
+  left: 5%;
+  z-index: -1;
 }
 
 .recent-odrder-list {
