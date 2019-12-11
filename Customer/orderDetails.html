@@ -22,7 +22,7 @@
     <section class="section-navbar ">
         <!-- <h1>Navbar</h1> -->
         <nav class="navbar navbar-light navbar-expand-lg container py-3">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="/index.html">
                 <img src="../assets/images/logo.png" height="70" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
@@ -67,27 +67,28 @@
         <div class="row">
             <div class="side-navbar col-12 col-lg-2 flex-sm-row flex-md-row overflow-auto">
                 <div class="list-group flex-row flex-md-column " id="mainTabs" role="tablist">
-                    <a href="dashboad.html" class="list-group-item text-center p-4 my-3 list-group-item-action">
+                    <a href="dashboad.html" class="list-group-item text-center p-4 mt-0 mb-4 list-group-item-action">
                         <i class="far fa-star fa-3x d-block mb-2"></i>
                         Dashboard
                     </a>
-                    <a href="services.html" class="list-group-item text-center p-4 my-3 list-group-item-action">
+                    <a href="services.html" class="list-group-item text-center p-4 mt-0 mb-4 list-group-item-action">
                         <i class="fas fa-briefcase fa-3x d-block mb-2"></i>
                         Services
                     </a>
-                    <a href="orders.html" class="list-group-item text-center p-4 my-3 list-group-item-action active">
+                    <a href="orders.html"
+                        class="list-group-item text-center p-4 mt-0 mb-4 list-group-item-action active">
                         <i class="fas fa-shopping-cart fa-3x d-block mb-2"></i>
                         Orders
                     </a>
-                    <a href="finance.html" class="list-group-item text-center p-4 my-3 list-group-item-action">
+                    <a href="finance.html" class="list-group-item text-center p-4 mt-0 mb-4 list-group-item-action">
                         <i class="fas fa-coins fa-3x d-block mb-2"></i>
                         Finaice
                     </a>
-                    <a href="account.html" class="list-group-item text-center p-4 my-3 list-group-item-action">
+                    <a href="account.html" class="list-group-item text-center p-4 mt-0 mb-4 list-group-item-action">
                         <i class="far fa-address-card fa-3x d-block mb-2"></i>
                         Account
                     </a>
-                    <a href="blank.html" class="list-group-item text-center p-4 my-3 list-group-item-action">
+                    <a href="blank.html" class="list-group-item text-center p-4 mt-0 mb-4 list-group-item-action">
                         <i class="far fa-question-circle fa-3x d-block mb-2"></i>
                         Help
                     </a>
@@ -95,6 +96,330 @@
             </div>
             <div class="col-12 col-lg-10 shadow py-3">
                 <h1 class="section-title-side"><span>Order #78476347932</span></h1>
+                <div class="row">
+                    <div class="col-12 mb-5">
+                        <div class="multi-steper">
+                            <ul class="nav nav-pills nav-fill" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link">
+                                        <i class="d-block fa-2x mb-2 fas fa-file-medical"></i>
+                                        Created
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link">
+                                        <i class="d-block fa-2x mb-2 fas fa-user-clock"></i>
+                                        Pending <br /> Approval
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link">
+                                        <i class="d-block fa-2x mb-2 fas fa-thumbs-up"></i>
+                                        Approved <br /> (Waiting For Bids)
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active">
+                                        <i class="d-block fa-2x mb-2 fas fa-user-ninja"></i>
+                                        Receive Bids
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link">
+                                        <i class="d-block fa-2x mb-2 fas fa-cog"></i>
+                                        In-Progress
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link">
+                                        <i class="d-block fa-2x mb-2 fas fa-check"></i>
+                                        Completed
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-4 col-md-4 bids-wrapper">
+                        <h1 class="section-title-side"><span>Bids</span></h1>
+                        <div class="list-group">
+                            <div
+                                class="list-group-item list-group-item-action flex-column align-items-start card-hover mb-4">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="mb-1 nz-pill-gold px-2">500 EGP</h5>
+                                    <small>3 days ago</small>
+                                </div>
+                                <p class="mb-1">10 Hours</p>
+                                <div class="d-flex w-100 justify-content-end">
+                                    <a class="btn nz-btn-gold btn-sm" px-2 role="button" data-toggle="collapse"
+                                        data-target="#collapseBid1" aria-expanded="false"
+                                        aria-controls="collapseBid1">Show Details</a>
+                                </div>
+                                <div class="mt-3 collapse multi-collapse" id="collapseBid1">
+                                    <div class="card card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes
+                                        anderson cred nesciunt sapiente ea proident.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div
+                                class="list-group-item list-group-item-action flex-column align-items-start card-hover mb-4">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="mb-1 nz-pill-gold px-2">500 EGP</h5>
+                                    <small>3 days ago</small>
+                                </div>
+                                <p class="mb-1">10 Hours</p>
+                                <div class="d-flex w-100 justify-content-end">
+                                    <a class="btn nz-btn-gold btn-sm" px-2 role="button" data-toggle="collapse"
+                                        data-target="#collapseBid2" aria-expanded="false"
+                                        aria-controls="collapseBid2">Show Details</a>
+                                </div>
+                                <div class="mt-3 collapse multi-collapse" id="collapseBid2">
+                                    <div class="card card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes
+                                        anderson cred nesciunt sapiente ea proident.
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-12 mb-4 col-md-8 bids-wrapper">
+                        <h1 class="section-title-side"><span>Order Details</span></h1>
+                        <div class="form-group row">
+                            <label class="col-3">Selected service</label>
+                            <label class="col-9">
+                                <div class="lead font-weight-bold">
+                                    Legal Translation <span class="font-weight-normal"> (Arabic => German) </span>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-3">Estmated Budget</label>
+                            <div class="col-9">
+                                <div class="lead">600 EGP</div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-3">Additional Service</label>
+                            <div class="col-9">
+                                <span class="badge badge-pill badge-warning mr-2">accusantium</span>
+                                <span class="badge badge-pill badge-warning mr-2">Lorem ipsum</span>
+                                <span class="badge badge-pill badge-warning mr-2">Warning</span>
+                                <span class="badge badge-pill badge-warning mr-2">quidem amet adipisci laudantium</span>
+                                <span class="badge badge-pill badge-warning mr-2">ea maiores nulla</span>
+                                <span class="badge badge-pill badge-warning mr-2">Lorem ipsum</span>
+                                <span class="badge badge-pill badge-warning mr-2">quidem amet adipisci laudantium</span>
+                                <span class="badge badge-pill badge-warning mr-2">ea maiores nulla</span>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-3">Confidentiality Agreement</label>
+                            <label class="col-9">Not Required</label>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-3">Required Sample</label>
+                            <label class="col-9">Required</label>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-3">Creation Date</label>
+                            <label class="col-9">8/21/2019 11:53:36 AM</label>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-3">Special Instructions</label>
+                            <label class="col-9">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam
+                                quidem amet adipisci laudantium, eius vel sint sequi accusantium repudiandae ipsam
+                                consequatur ea maiores nulla ipsa quam earum perspiciatis perferendis tempora.
+                            </label>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-3">Files</label>
+                            <div class="col-9">
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">
+                                        <div class="btn btn-outline-dark btn-lg d-flex flex-column m-1">
+                                            <i class="far fa-file"></i>
+                                            <p class="m-0 small">bdudj.docx</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-3">Recived Files</label>
+                            <div class="col-9">
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">
+                                        <div class="btn btn-outline-dark btn-lg d-flex flex-column m-1">
+                                            <i class="far fa-file"></i>
+                                            <p class="m-0 small">bdudj.docx</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <div class="btn btn-outline-dark btn-lg d-flex flex-column m-1">
+                                            <i class="far fa-file"></i>
+                                            <p class="m-0 small">bdudj.docx</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <div class="btn btn-outline-dark btn-lg d-flex flex-column m-1">
+                                            <i class="far fa-file"></i>
+                                            <p class="m-0 small">bdudj.docx</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <div class="btn btn-outline-dark btn-lg d-flex flex-column m-1">
+                                            <i class="far fa-file"></i>
+                                            <p class="m-0 small">bdudj.docx</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <div class="btn btn-outline-dark btn-lg d-flex flex-column m-1">
+                                            <i class="far fa-file"></i>
+                                            <p class="m-0 small">bdudj.docx</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-4 col-md-4 bids-wrapper">
+                        <h1 class="section-title-side"><span>Updates</span></h1>
+                        <div class="updates-wrapper">
+                            <div class="pudates-me">
+                                <small class=" d-flex justify-content-end">3 days ago</small>
+                                <p class="mb-2"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+                            </div>
+                            <div class="pudates-other">
+                                <small class=" d-flex justify-content-end">3 days ago</small>
+                                <p class="mb-2"> Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            </div>
+                            <div class="pudates-other">
+                                <small class=" d-flex justify-content-end">3 days ago</small>
+                                <p class="mb-2">Lorem ipsum dolor sit amet consectetur.</p>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">
+                                        <div class="btn btn-outline-dark d-flex flex-column m-1">
+                                            <i class="far fa-file"></i>
+                                            <p class="m-0 small">bdudj.docx</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <div class="btn btn-outline-dark d-flex flex-column m-1">
+                                            <i class="far fa-file"></i>
+                                            <p class="m-0 small">bdudj.docx</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <div class="btn btn-outline-dark d-flex flex-column m-1">
+                                            <i class="far fa-file"></i>
+                                            <p class="m-0 small">bdudj.docx</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <div class="btn btn-outline-dark d-flex flex-column m-1">
+                                            <i class="far fa-file"></i>
+                                            <p class="m-0 small">bdudj.docx</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <div class="btn btn-outline-dark d-flex flex-column m-1">
+                                            <i class="far fa-file"></i>
+                                            <p class="m-0 small">bdudj.docx</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="add-update-wrapper">
+                                <div class="form-group">
+                                    <textarea class="form-control border-warning rounded-pill "
+                                        id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    <div class="btn btn-block btn-dark rounded-pill mt-2">Submit</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-4 col-md-8 bids-wrapper">
+                        <h1 class="section-title-side"><span>Invoices</span></h1>
+                        <ul class="list-group">
+                            <li class="list-group-item card-hover my-2">
+                                <a href="invoiceDetails.html"
+                                    class="py-3 d-flex flex-column flex-sm-column flex-md-row justify-content-between align-items-center text-dark text-decoration-none">
+                                    <span class="align-self-start font-weight-bold">
+                                        <i class="fas fa-chevron-circle-right mr-2"></i> #78476347932
+                                    </span>
+                                    <span>300 USD</span>
+                                    <span>Paypal</span>
+                                    <span>8/21/2019 11:53:36 AM</span>
+                                    <span class="d-flex flex-column align-self-end">
+                                        <span class=" badge badge-pill badge-success align-self-end">Colected</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-group-item card-hover my-2  border border-warning">
+                                <a href="invoiceDetails.html"
+                                    class="py-3 d-flex flex-column flex-sm-column flex-md-row justify-content-between align-items-center text-dark text-decoration-none">
+                                    <span class="align-self-start font-weight-bold">
+                                        <i class="fas fa-chevron-circle-right mr-2"></i> #78476347932
+                                    </span>
+                                    <span>300 USD</span>
+                                    <span>Paypal</span>
+                                    <span>8/21/2019 11:53:36 AM</span>
+                                    <span class="d-flex flex-column align-self-end">
+                                        <span class=" badge badge-pill badge-danger">Waiting for collection </span>
+                                        <!-- <div class="btn nz-btn-gold btn-block align-self-end mt-2">Pay NOW</div> -->
+                                    </span>
+                                </a>
+                                </span>
+                            </li>
+                            <li class="list-group-item card-hover my-2">
+                                <a href="invoiceDetails.html"
+                                    class="py-3 d-flex flex-column flex-sm-column flex-md-row justify-content-between align-items-center text-dark text-decoration-none">
+                                    <span class="align-self-start font-weight-bold">
+                                        <i class="fas fa-chevron-circle-right mr-2"></i> #78476347932
+                                    </span>
+                                    <span>300 USD</span>
+                                    <span>Paypal</span>
+                                    <span>8/21/2019 11:53:36 AM</span>
+                                    <span class="d-flex flex-column align-self-end">
+                                        <span class=" badge badge-pill badge-success align-self-end">Colected</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-group-item card-hover my-2">
+                                <a href="invoiceDetails.html"
+                                    class="py-3 d-flex flex-column flex-sm-column flex-md-row justify-content-between align-items-center text-dark text-decoration-none">
+                                    <span class="align-self-start font-weight-bold">
+                                        <i class="fas fa-chevron-circle-right mr-2"></i> #78476347932
+                                    </span>
+                                    <span>300 USD</span>
+                                    <span>Paypal</span>
+                                    <span>8/21/2019 11:53:36 AM</span>
+                                    <span class="d-flex flex-column align-self-end">
+                                        <span class=" badge badge-pill badge-success align-self-end">Colected</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-group-item card-hover my-2">
+                                <a href="invoiceDetails.html"
+                                    class="py-3 d-flex flex-column flex-sm-column flex-md-row justify-content-between align-items-center text-dark text-decoration-none">
+                                    <span class="align-self-start font-weight-bold">
+                                        <i class="fas fa-chevron-circle-right mr-2"></i> #78476347932
+                                    </span>
+                                    <span>300 USD</span>
+                                    <span>Paypal</span>
+                                    <span>8/21/2019 11:53:36 AM</span><span class="d-flex flex-column align-self-end">
+                                        <span class=" badge badge-pill badge-success align-self-end">Colected</span>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

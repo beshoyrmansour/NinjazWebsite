@@ -451,7 +451,7 @@ body {
   width: 95%;
   height: 95%;
 }
-.side-navbar .list-group .list-group-item:hover:before{
+.side-navbar .list-group .list-group-item:hover:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -510,8 +510,8 @@ body {
   position: absolute;
   border-top: 1px #e2e2e2 solid;
   bottom: 50%;
-  left: 2%;
-  width: 95%;
+  left: 7%;
+  width: 85%;
   z-index: 0;
 }
 .multi-steper .nav .nav-item {
@@ -531,4 +531,26 @@ body {
 }
 .multi-steper .nav .nav-item .active {
   background: #fdcd0b;
+}
+
+.updates-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.updates-wrapper .pudates-me,
+.updates-wrapper .pudates-other {
+  width: 80%;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid black;
+  border-radius: 2rem;
+  padding: 1rem;
+}
+.updates-wrapper .pudates-me {
+  align-self: flex-end;
+  border: 1px solid #fdcd0b;
+}
+.updates-wrapper .add-update-wrapper{
+
 }
