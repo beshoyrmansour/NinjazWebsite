@@ -451,7 +451,16 @@ body {
   width: 95%;
   height: 95%;
 }
-.side-navbar .list-group .list-group-item:hover:before,
+.side-navbar .list-group .list-group-item:hover:before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  background-color: #f1d648;
+  height: 100%;
+  top: 5%;
+  left: 5%;
+  z-index: -1;
+}
 .side-navbar .list-group .list-group-item.active::before {
   content: "";
   position: absolute;
