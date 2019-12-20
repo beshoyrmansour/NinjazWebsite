@@ -437,7 +437,7 @@ body {
   height: 100%;
 }
 /* .side-navbar .list-group .list-group-item:hover {
-  background-color: #f1d648;
+  background-color: #fdcd0b;
   color: #000;
   border: none;
   font-weight: bold;
@@ -451,7 +451,7 @@ body {
 }
 .side-navbar .list-group .list-group-item.active,
 .side-navbar .list-group .list-group-item:hover {
-  background-color: #f1d648;
+  background-color: #fdcd0b;
   color: #000;
   border: none;
   z-index: 1;
@@ -484,7 +484,7 @@ body {
   content: "";
   position: absolute;
   width: 100%;
-  background-color: #f1d648;
+  background-color: #fdcd0b;
   height: 100%;
   top: 5%;
   left: 5%;
