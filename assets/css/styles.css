@@ -546,13 +546,17 @@ body {
   z-index: 0;
 }
 .multi-steper .nav .nav-item,
+.multi-steper .nav .nav-item .nav-link,
+.multi-steper-status .nav .nav-item .nav-link,
 .multi-steper-status .nav .nav-item {
   z-index: 1;
-  margin: 0.5rem;
+  margin: 0.4rem;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100%;
+  font-size: 0.8rem;
 }
 .multi-steper .nav .nav-item a,
 .multi-steper-status .nav .nav-item a {
@@ -607,7 +611,6 @@ body {
 .bids-options-wrapper .nav .nav-link {
   /* background-color: #fdcd0b; */
   color: #495057;
-  
 }
 .bids-options-wrapper .nav .nav-link.active {
   background-color: #fdcd0b;
