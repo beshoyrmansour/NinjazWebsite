@@ -592,16 +592,6 @@ body {
 .updates-wrapper .add-update-wrapper {
 }
 
-@media (max-width: 992px) {
-  /* .multi-steper-status .nav:before {
-    content: none;
-    border-top: none;
-  } */
-  .multi-steper-status .nav-link:not(.active) {
-    display: none;
-  }
-}
-
 .custom-file-label.rounded-pill::after {
   padding-right: 0.6em;
   padding-left: 0.6em;
@@ -618,4 +608,20 @@ body {
   font-weight: bold;
   border-color: #fdcd0b;
   border-radius: 0px;
+}
+
+.border-left-lg{
+  border-left: 1px solid #dee2e6;
+}
+@media (max-width: 992px) {
+  /* .multi-steper-status .nav:before {
+    content: none;
+    border-top: none;
+  } */
+  .multi-steper-status .nav-link:not(.active) {
+    display: none;
+  }
+  .border-left-lg{
+    border: none;
+  }
 }
