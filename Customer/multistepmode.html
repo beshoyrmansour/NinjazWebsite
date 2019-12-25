@@ -145,7 +145,6 @@
                                 aria-controls="budget" aria-selected="false">
                                 <i class="d-block fa-2x mb-2 fas fa-coins"></i>
                                 <span>
-
                                     Budget
                                 </span>
                             </a>
@@ -236,55 +235,148 @@
 
                         </div>
                         <div class="tab-pane fade" id="stamp" role="tabpanel" aria-labelledby="stamp-tab">
-                           <div class="container">
+                            <div class="container">
 
-                               <div class="row">
-                                   <div class="col-12 col-md-3">
-                                       <div class="custom-control custom-checkbox my-1 mr-sm-2">
-                                           <input type="checkbox" class="custom-control-input" id="customControlInline">
-                                           <label class="custom-control-label" for="customControlInline">Yes I need stamps</label>
+                                <div class="row">
+                                    <div class="col-12 col-md-3">
+                                        <div class="custom-control custom-checkbox my-1 mr-sm-2">
+                                            <input type="checkbox" class="custom-control-input"
+                                                id="customControlInline">
+                                            <label class="custom-control-label" for="customControlInline">Yes I need
+                                                stamps</label>
                                         </div>
                                     </div>
                                     <div class="col-12 col-md-9">
                                         <div class="list-group">
-                                            <a href="#" class="list-group-item list-group-item-action nz-btn-gold">Cras justo odio </a>
-                                            <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
-                                            <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
-                                            <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
-                                            <div href="#" class="list-group-item list-group-item-action ">    
+                                            <a href="#" class="list-group-item list-group-item-action nz-btn-gold">Cras
+                                                justo odio </a>
+                                            <a href="#" class="list-group-item list-group-item-action">Dapibus ac
+                                                facilisis in</a>
+                                            <a href="#" class="list-group-item list-group-item-action">Morbi leo
+                                                risus</a>
+                                            <a href="#" class="list-group-item list-group-item-action">Porta ac
+                                                consectetur ac</a>
+                                            <div href="#" class="list-group-item list-group-item-action ">
                                                 <div class="form-inline d-flex justify-content-between">
-                                                    <input type="text" class="form-control flex-grow-1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Other stamps">
-                                                    <div class="btn nz-btn-gold px-4"><i class="fas fa-plus"></i> Add</div>
+                                                    <input type="text" class="form-control flex-grow-1"
+                                                        id="exampleInputEmail1" aria-describedby="emailHelp"
+                                                        placeholder="Other stamps">
+                                                    <div class="btn nz-btn-gold px-4"><i class="fas fa-plus"></i> Add
+                                                    </div>
                                                 </div>
                                             </div>
-                                          </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="deliveryTime" role="tabpanel" aria-labelledby="deliveryTime-tab">
-                            deliveryTime-tab...</div>
+                            <div class="btn-group d-flex flex-wrap flex-row p-0 justify-content-center" role="group"
+                                aria-label="Basic example">
+                                <button class="btn btn-outline-warning m-2 "><span>Today</span></button>
+                                <button class="btn btn-warning m-2 "><span>Tomorrow</span></button>
+                                <button class="btn btn-outline-warning m-2 "><span>Next week</span></button>
+                                <button
+                                    class="btn btn-outline-warning m-2 d-flex flex-row justify-content-stretch align-items-center">
+                                    <span class="mr-2">Set Date</span>
+                                    <input type="datetime" class="form-control w-100" placeholder="type your Date">
+                                </button>
+                            </div>
+                        </div>
                         <div class="tab-pane fade" id="budget" role="tabpanel" aria-labelledby="budget-tab">
-                            budget-tab...</div>
+
+                            <div class="form-inline justify-content-center">
+                                <div class="form-group mb-3">
+                                    <label for="exampleFormControlTextarea1" class="mr-2">Currency </label>
+                                    <div class="dropdown d-flex">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button"
+                                            id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            USD
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <a class="dropdown-item" href="#">USD</a>
+                                            <a class="dropdown-item" href="#">AED</a>
+                                            <a class="dropdown-item" href="#">EGP</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="btn-group d-flex flex-wrap flex-row p-0 justify-content-center" role="group"
+                                <div class="btn-group d-flex flex-wrap flex-row p-0 justify-content-center" role="group"
+                                aria-label="Basic example">
+                                <button class="btn btn-outline-warning m-2 "><span>100</span></button>
+                                <button class="btn btn-warning m-2 "><span>200</span></button>
+                                <button class="btn btn-outline-warning m-2 "><span>300</span></button>
+                                <button
+                                    class="btn btn-outline-warning m-2 d-flex flex-row justify-content-stretch align-items-center">
+                                    <span class="mr-2">Set Budget</span>
+                                    <input type="number" class="form-control w-100"
+                                        placeholder="type your Budget amount">
+                                </button>
+                            </div>
+                        </div>
                         <div class="tab-pane fade" id="additionalService" role="tabpanel"
-                            aria-labelledby="additionalService-tab">additionalService-tab...</div>
+                            aria-labelledby="additionalService-tab">
+                            <div class="container">
+
+                                <div class="row">
+                                    <div class="col-12 col-md-12">
+                                        <div class="form-group">
+                                            <label for="exampleFormControlTextarea1">Special Instructions </label>
+                                            <select class="custom-select" multiple>
+                                                <option selected>Open this select menu</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-inline d-flex justify-content-between">
+                                            <input type="text" class="form-control flex-grow-1" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp" placeholder="Other stamps">
+                                            <div class="btn nz-btn-gold px-4"><i class="fas fa-plus"></i> Add
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
                         <div class="tab-pane fade" id="confidentialityAgreement" role="tabpanel"
                             aria-labelledby="confidentialityAgreement-tab">confidentialityAgreement-tab...</div>
                         <div class="tab-pane fade" id="specialInstructions" role="tabpanel"
-                            aria-labelledby="specialInstructions-tab">specialInstructions-tab...</div>
-                        <div class="tab-pane fade" id="requiredSample" role="tabpanel"
-                            aria-labelledby="requiredSample-tab">requiredSample-tab...</div>
-                    </div>
-                    <div class="row mt-5">
+                            aria-labelledby="specialInstructions-tab">
+                            <div class="container">
 
-                        <div class="col-12 col-lg-4 offset-lg-8">
-                            <a href="placeOrderSuccess.html"
-                                class="btn nz-btn-gold btn-block  text-uppercase font-weight-bold">Submit Order</a>
+                                <div class="row">
+                                    <div class="col-12 col-md-12">
+                                        <div class="form-group">
+                                            <label for="exampleFormControlTextarea1">Special Instructions </label>
+                                            <textarea class="form-control" id="exampleFormControlTextarea1"
+                                                rows="5"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="requiredSample" role="tabpanel"
+                                aria-labelledby="requiredSample-tab">
+                                requiredSample-tab...</div>
+                        </div>
+                        <div class="row mt-5">
+
+                            <div class="col-12 col-lg-4 offset-lg-8">
+                                <a href="placeOrderSuccess.html"
+                                    class="btn nz-btn-gold btn-block  text-uppercase font-weight-bold">Submit
+                                    Order</a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
+                </div>
             </div>
-        </div>
     </section>
 
     <footer class="section-footer pt-5">
