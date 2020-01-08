@@ -625,3 +625,9 @@ body {
     border: none;
   }
 }
+
+.custom-control-input:checked~.custom-control-label::before{
+  color: #000;
+  border-color: #fdcd0b;
+  background-color: #fdcd0b;
+}

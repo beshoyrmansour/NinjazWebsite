@@ -65,7 +65,7 @@
         <div class="row px-3">
             <div class="side-navbar col-12 col-lg-2 flex-sm-row flex-md-row overflow-auto">
                 <div class="list-group " id="mainTabs" role="tablist">
-                    <a href="dashboad.html" class="list-group-item list-group-item-action active">
+                    <a href="dashboad.html" class="list-group-item list-group-item-action ">
                         <i class="far fa-star fa-2x mr-2"></i>
                         <span>Dashboard</span>
                     </a>
@@ -81,7 +81,7 @@
                         <i class="fas fa-coins fa-2x mr-2"></i>
                         <span>Finaice</span>
                     </a>
-                    <a href="account.html" class="list-group-item list-group-item-action ">
+                    <a href="account.html" class="list-group-item list-group-item-action active">
                         <i class="far fa-address-card fa-2x mr-2"></i>
                         <span>Account</span>
                     </a>
@@ -92,9 +92,279 @@
                 </div>
             </div>
             <div class="col-12 col-lg-10 shadow py-4">
-                <h1 class="section-title-side"><span>Blank</span></h1>
+                <h1 class="section-title-side"><span>Account</span></h1>
+                <div class="row">
+                    <div class=" col-12 col-lg-6 ">
+                        <div class="card rounded-lg shadow">
+                            <div class="card-body">
+                                <form>
+                                    <div class="form-row">
+                                        <div class="col-12 col-md-12 form-group">
+                                            <label for="firstName">First Name</label>
+                                            <input type="text" class="form-control" id="firstName" value="Mostafa"
+                                                placeholder="Your First name" required>
+                                        </div>
+                                        <div class="col-12 col-md-12 form-group">
+                                            <label for="lastName">Last Name</label>
+                                            <input type="text" class="form-control" id="lastName" value="Abdullah"
+                                                placeholder="Your Last Name" required>
+                                        </div>
 
+                                    </div>
+                                    <div class="form-row align-items-end">
+                                        <div class="col-12 col-md-12 form-group">
+                                            <label for="email">Email</label>
+                                            <input id="email" type="email" class="form-control" id="loginemail"
+                                                value="Mostafa.Abdullah@gmail.com" placeholder="Your Email Address"
+                                                required>
+                                        </div>
+                                        <div class="col-12 col-md-12 form-group">
+                                            <label for="validationDefault03">Your Company Name</label>
+                                            <input id="validationDefault03" type="text" class="form-control"
+                                                value="Ninjaz" id="loginpassword" placeholder="Your Company Name">
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class=" col-12 col-md-6 form-group">
+                                            <label for="password">Password</label>
+                                            <input id="password" type="password" class="form-control" id="loginpassword"
+                                                placeholder="Your passowrd" required>
+                                        </div>
+                                        <div class="col-12 col-md-6 form-group">
+                                            <label for="confirmPassword">Confirm password</label>
+                                            <input id="confirmPassword" type="password" class="form-control"
+                                                id="loginpassword" placeholder="Confirm your passowrd" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <a href="Customer/dashboad.html"
+                                            class="btn btn-block nz-btn-gold btn-lg text-uppercase font-weight-normal">Save
+                                            Changes</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="card rounded-lg shadow">
+                            <div class="card-body">
+                                <h1 class="section-title-side"><span>Services</span></h1>
+                                <div id="accordion">
+                                    <div class="card">
+                                        <div class="card-header bg-white" id="headingOne">
+                                            <h5 class="mb-0">
+                                                <button class="btn btn-link text-warning" data-toggle="collapse"
+                                                    data-target="#collapseOne" aria-expanded="true"
+                                                    aria-controls="collapseOne">
+                                                    Translation
+                                                </button>
+                                            </h5>
+                                        </div>
+
+                                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                            data-parent="#accordion">
+                                            <div class="card-body">
+                                                <div class="card my-2 d-flex flex-row justify-content-between">
+                                                    <div class="py-2 custom-control custom-checkbox">
+                                                        <input class="custom-control-input" type="checkbox" value=""
+                                                            checked id="defaultCheck1">
+                                                        <label class="custom-control-label ml-4" for="defaultCheck1">
+                                                            <span>
+                                                                Default checkbox
+                                                            </span>
+                                                        </label>
+                                                    </div>
+                                                    <a href="servicePage.html" class="nz-btn-gold btn">Adjust</a>
+                                                </div>
+                                                <div class="card my-2 d-flex flex-row justify-content-between">
+                                                    <div class="py-2 custom-control custom-checkbox">
+                                                        <input class="custom-control-input" type="checkbox" value=""
+                                                            id="defaultCheck2">
+                                                        <label class="custom-control-label ml-4" for="defaultCheck2">
+                                                            <span>
+                                                                Disabled checkbox
+                                                            </span>
+                                                        </label>
+                                                    </div>
+                                                    <a href="servicePage.html"
+                                                        class="nz-btn-gold btn disabled">Adjust</a>
+                                                </div>
+                                                <div class="card my-2 d-flex flex-row justify-content-between">
+                                                    <div class="py-2 custom-control custom-checkbox">
+                                                        <input class="custom-control-input" type="checkbox" value=""
+                                                            id="defaultCheck3">
+                                                        <label class="custom-control-label ml-4" for="defaultCheck3">
+                                                            <span>
+                                                                Disabled checkbox
+                                                            </span>
+                                                        </label>
+                                                    </div>
+                                                    <a href="servicePage.html"
+                                                        class="nz-btn-gold btn disabled">Adjust</a>
+                                                </div>
+                                                <div class="card my-2 d-flex flex-row justify-content-between">
+                                                    <div class="py-2 custom-control custom-checkbox">
+                                                        <input class="custom-control-input" type="checkbox" value=""
+                                                            id="defaultCheck4">
+                                                        <label class="custom-control-label ml-4" for="defaultCheck4">
+                                                            <span>
+                                                                Disabled checkbox
+                                                            </span>
+                                                        </label>
+                                                    </div>
+                                                    <a href="servicePage.html"
+                                                        class="nz-btn-gold btn disabled">Adjust</a>
+                                                </div>
+
+                                                <div class="card my-2 d-flex flex-row justify-content-between">
+                                                    <div class="py-2 custom-control custom-checkbox">
+                                                        <input class="custom-control-input" type="checkbox" value=""
+                                                            id="defaultCheck5">
+                                                        <label class="custom-control-label ml-4" for="defaultCheck5">
+                                                            <span>
+                                                                Disabled checkbox
+                                                            </span>
+                                                        </label>
+                                                    </div>
+                                                    <a href="servicePage.html"
+                                                        class="nz-btn-gold btn disabled">Adjust</a>
+                                                </div>
+                                                <div class="card my-2 d-flex flex-row justify-content-between">
+                                                    <div class="py-2 custom-control custom-checkbox">
+                                                        <input class="custom-control-input" type="checkbox" value=""
+                                                            id="defaultCheck6">
+                                                        <label class="custom-control-label ml-4" for="defaultCheck6">
+                                                            <span>
+                                                                Disabled checkbox
+                                                            </span>
+                                                        </label>
+                                                    </div>
+                                                    <a href="servicePage.html"
+                                                        class="nz-btn-gold btn disabled">Adjust</a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header bg-white" id="headingTwo">
+                                            <h5 class="mb-0">
+                                                <button class="btn btn-link text-warning collapsed"
+                                                    data-toggle="collapse" data-target="#collapseTwo"
+                                                    aria-expanded="false" aria-controls="collapseTwo">
+                                                    Document Clearance
+                                                </button>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                            data-parent="#accordion">
+                                            <div class="card-body">
+                                                <div class="card my-2 d-flex flex-row justify-content-between">
+                                                    <div class="py-2 custom-control custom-checkbox">
+                                                        <input class="custom-control-input" type="checkbox" value=""
+                                                            checked id="defaultCheck1">
+                                                        <label class="custom-control-label ml-4" for="defaultCheck1">
+                                                            <span>
+                                                                Default checkbox
+                                                            </span>
+                                                        </label>
+                                                    </div>
+                                                    <a href="servicePage.html" class="nz-btn-gold btn">Adjust</a>
+                                                </div>
+                                                <div class="card my-2 d-flex flex-row justify-content-between">
+                                                    <div class="py-2 custom-control custom-checkbox">
+                                                        <input class="custom-control-input" type="checkbox" value=""
+                                                            id="defaultCheck2">
+                                                        <label class="custom-control-label ml-4" for="defaultCheck2">
+                                                            <span>
+                                                                Disabled checkbox
+                                                            </span>
+                                                        </label>
+                                                    </div>
+                                                    <a href="servicePage.html"
+                                                        class="nz-btn-gold btn disabled">Adjust</a>
+                                                </div>
+                                                <div class="card my-2 d-flex flex-row justify-content-between">
+                                                    <div class="py-2 custom-control custom-checkbox">
+                                                        <input class="custom-control-input" type="checkbox" value=""
+                                                            id="defaultCheck3">
+                                                        <label class="custom-control-label ml-4" for="defaultCheck3">
+                                                            <span>
+                                                                Disabled checkbox
+                                                            </span>
+                                                        </label>
+                                                    </div>
+                                                    <a href="servicePage.html"
+                                                        class="nz-btn-gold btn disabled">Adjust</a>
+                                                </div>
+                                                <div class="card my-2 d-flex flex-row justify-content-between">
+                                                    <div class="py-2 custom-control custom-checkbox">
+                                                        <input class="custom-control-input" type="checkbox" value=""
+                                                            id="defaultCheck4">
+                                                        <label class="custom-control-label ml-4" for="defaultCheck4">
+                                                            <span>
+                                                                Disabled checkbox
+                                                            </span>
+                                                        </label>
+                                                    </div>
+                                                    <a href="servicePage.html"
+                                                        class="nz-btn-gold btn disabled">Adjust</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header bg-white" id="headingThree">
+                                            <h5 class="mb-0">
+                                                <button class="btn btn-link text-warning collapsed"
+                                                    data-toggle="collapse" data-target="#collapseThree"
+                                                    aria-expanded="false" aria-controls="collapseThree">
+                                                    Legal Advice
+                                                </button>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                            data-parent="#accordion">
+                                            <div class="card-body">
+                                                <div class="card my-2 d-flex flex-row justify-content-between">
+                                                    <div class="py-2 custom-control custom-checkbox">
+                                                        <input class="custom-control-input" type="checkbox" value=""
+                                                            checked id="defaultCheck1">
+                                                        <label class="custom-control-label ml-4" for="defaultCheck1">
+                                                            <span>
+                                                                Default checkbox
+                                                            </span>
+                                                        </label>
+                                                    </div>
+                                                    <a href="servicePage.html" class="nz-btn-gold btn">Adjust</a>
+                                                </div>
+                                                <div class="card my-2 d-flex flex-row justify-content-between">
+                                                    <div class="py-2 custom-control custom-checkbox">
+                                                        <input class="custom-control-input" type="checkbox" value=""
+                                                            id="defaultCheck2">
+                                                        <label class="custom-control-label ml-4" for="defaultCheck2">
+                                                            <span>
+                                                                Disabled checkbox
+                                                            </span>
+                                                        </label>
+                                                    </div>
+                                                    <a href="servicePage.html"
+                                                        class="nz-btn-gold btn disabled">Adjust</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="/singup.html" class="d-block pt-3 nz-text-gold">Add another Service +</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
+
         </div>
     </section>
 
