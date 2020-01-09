@@ -506,7 +506,7 @@ body {
   /* overflow-y: auto; */
   overflow-y: scroll;
 }
-.recent-order-list, .order-updates-list::-webkit-scrollbar {
+.recent-order-list::-webkit-scrollbar, .order-updates-list::-webkit-scrollbar {
   width: 0 !important;
 }
 
