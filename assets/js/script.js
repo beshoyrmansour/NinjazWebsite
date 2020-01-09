@@ -11,6 +11,7 @@ $(document).ready(function() {
       },
     },
   });
+  $('.order-updates-list').scrollTop($('.order-updates-list')[0].scrollHeight);
   // $("#mainTabs a").on("click", function(e) {
   //   e.preventDefault();
   //   $(this).tab("show");

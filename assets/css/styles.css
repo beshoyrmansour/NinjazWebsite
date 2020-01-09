@@ -501,12 +501,12 @@ body {
   z-index: -1;
 } */
 
-.recent-odrder-list {
+.recent-order-list, .order-updates-list {
   height: 500px;
   /* overflow-y: auto; */
   overflow-y: scroll;
 }
-.recent-odrder-list::-webkit-scrollbar {
+.recent-order-list, .order-updates-list::-webkit-scrollbar {
   width: 0 !important;
 }
 
