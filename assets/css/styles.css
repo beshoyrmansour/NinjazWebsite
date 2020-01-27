@@ -602,6 +602,8 @@ body {
   /* background-color: #fdcd0b; */
   color: #495057;
 }
+
+.dropdown-menu .dropdown-item.active,
 .bids-options-wrapper .nav .nav-link.active {
   background-color: #fdcd0b;
   color: #000;

@@ -65,7 +65,7 @@
         <div class="row px-3">
             <div class="side-navbar col-12 col-lg-2 flex-sm-row flex-md-row overflow-auto">
                 <div class="list-group " id="mainTabs" role="tablist">
-                    <a href="dashboad.html" class="list-group-item list-group-item-action active">
+                    <a href="dashboad.html" class="list-group-item list-group-item-action ">
                         <i class="far fa-star fa-2x mr-2"></i>
                         <span>Dashboard</span>
                     </a>
@@ -73,7 +73,7 @@
                         <i class="fas fa-briefcase fa-2x mr-2"></i>
                         <span>Bids</span>
                     </a>
-                    <a href="orders.html" class="list-group-item list-group-item-action ">
+                    <a href="orders.html" class="list-group-item list-group-item-action active">
                         <i class="fas fa-shopping-cart fa-2x mr-2"></i>
                         <span>Orders</span>
                     </a>
@@ -93,6 +93,52 @@
             </div>
             <div class="col-12 col-lg-10 shadow py-4">
                 <h1 class="section-title-side"><span>Orders List</span></h1>
+                <div class="row mb-4">
+                    <div class="col-12 col-md-6 col-lg-4 my-2">
+                        <div class="dropdown d-flex align-items-md-center align-items-start  justify-content-between flex-column flex-md-row">
+                            <span class="mr-4">Date</span>
+                            <button class="btn btn-secondary  dropdown-toggle flex-fill w-100" type="button"
+                                id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                Recent to Older
+                            </button>
+                            <div class="dropdown-menu w-100" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item active" href="#">Recent to Older</a>
+                                <a class="dropdown-item" href="#">Older to Recent</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 my-2">
+                        <div class="dropdown d-flex align-items-md-center align-items-start  justify-content-between flex-column flex-md-row">
+                            <span class="mr-4">Service</span>
+                            <button class="btn btn-secondary  dropdown-toggle flex-fill w-100" type="button"
+                                id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                Translation
+                            </button>
+                            <div class="dropdown-menu w-100" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item active" href="#">Recent to Older</a>
+                                <a class="dropdown-item" href="#">Older to Recent</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 my-2">
+                        <div class="dropdown d-flex align-items-md-center align-items-start  justify-content-between flex-column flex-md-row">
+                            <span class="mr-4">Status</span>
+                            <button class="btn btn-secondary  dropdown-toggle flex-fill w-100" type="button"
+                                id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                All
+                            </button>
+                            <div class="dropdown-menu w-100" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item active" href="#">Recent to Older</a>
+                                <a class="dropdown-item" href="#">Older to Recent</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 my-2"></div>
+                </div>
                 <ul class="list-group">
                     <li class="list-group-item order-card my-2">
                         <a href="orderDetails.html"
